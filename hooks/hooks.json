@@ -1,0 +1,17 @@
+{
+  "description": "Garde-code : bloque l'écriture de code applicatif tant que la phase 1 (cadrage) n'est pas close dans docs/projet/etat.md",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --no-project --quiet python \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/garde_code.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

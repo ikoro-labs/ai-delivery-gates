@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+*.log
+
+# Fichiers de domaine propres à une organisation ou un projet : locaux, non versionnés
+skills/revue-de-phase/references/domaines/*.md
+!skills/revue-de-phase/references/domaines/_template.md
+!skills/revue-de-phase/references/domaines/batiment-controle-technique.md
