@@ -3,6 +3,15 @@
 Format inspiré de Keep a Changelog. Versions selon SemVer ; la version de référence est celle de
 `.claude-plugin/plugin.json`.
 
+## [0.2.2] - 2026-10-23
+
+### Modifié
+- Distribution par le catalogue `ikoro-labs` (dépôt `ikoro-labs/forge`) : installation par
+  `/plugin marketplace add ikoro-labs/forge` puis `/plugin install ai-delivery-gates@ikoro-labs`.
+
+### Supprimé
+- Manifeste `.claude-plugin/marketplace.json` : le dépôt ne déclare plus son propre catalogue.
+
 ## [0.2.1] - 2026-10-23
 
 ### Ajouté

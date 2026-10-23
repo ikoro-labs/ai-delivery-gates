@@ -22,10 +22,10 @@ amorcé dès la phase 1, adoption) et fait relire chaque livrable par trois agen
 
 ## Installation
 
-Le dépôt est aussi un marketplace Claude Code (`.claude-plugin/marketplace.json`) :
+Le plugin est distribué par le catalogue `ikoro-labs`, servi par le dépôt `ikoro-labs/forge` :
 
 ```
-/plugin marketplace add ikoro-labs/ai-delivery-gates
+/plugin marketplace add ikoro-labs/forge
 /plugin install ai-delivery-gates@ikoro-labs
 ```
 
