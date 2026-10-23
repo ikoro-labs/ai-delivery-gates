@@ -6,6 +6,7 @@ Format inspiré de Keep a Changelog. Versions selon SemVer ; la version de réf�
 ## [Non publié]
 
 ### Ajouté
+- Licence MIT (`LICENSE`, champ `license` du manifeste).
 - Manifeste de marketplace `.claude-plugin/marketplace.json` : installation par
   `/plugin marketplace add ikoro-labs/ai-delivery-gates` puis `/plugin install ai-delivery-gates@ikoro-labs`.
 

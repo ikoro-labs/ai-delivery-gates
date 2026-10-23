@@ -76,3 +76,7 @@ journal. Le hook ne fait rien dans un projet sans `docs/projet/etat.md`.
 - Non testé sur un projet réel : à itérer sur deux ou trois cas.
 - Le fichier de domaine bâtiment est une amorce, pas une référence vérifiée.
 - Le hook couvre les tools Write, Edit, MultiEdit et NotebookEdit ; une écriture par Bash n'est pas interceptée.
+
+## Licence
+
+MIT, voir [LICENSE](LICENSE).

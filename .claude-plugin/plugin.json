@@ -17,5 +17,6 @@
     "adr",
     "revue"
   ],
-  "repository": "https://github.com/ikoro-labs/ai-delivery-gates"
+  "repository": "https://github.com/ikoro-labs/ai-delivery-gates",
+  "license": "MIT"
 }
