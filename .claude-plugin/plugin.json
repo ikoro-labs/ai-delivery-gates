@@ -1,12 +1,15 @@
 {
   "name": "ai-delivery-gates",
   "displayName": "AI Delivery Gates",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Roadmap, livrables et gate de revue pour les phases 0 à 3 d'un projet IA (spike, cadrage, spécifications, system design). Trois agents de revue : Lead Tech, Product Owner, Expert métier.",
   "author": {
     "name": "ikoro-labs",
     "url": "https://github.com/ikoro-labs"
   },
+  "homepage": "https://github.com/ikoro-labs/ai-delivery-gates",
+  "repository": "https://github.com/ikoro-labs/ai-delivery-gates",
+  "license": "MIT",
   "keywords": [
     "ia",
     "ml",
@@ -16,7 +19,5 @@
     "gate",
     "adr",
     "revue"
-  ],
-  "repository": "https://github.com/ikoro-labs/ai-delivery-gates",
-  "license": "MIT"
+  ]
 }
