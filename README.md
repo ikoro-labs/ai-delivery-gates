@@ -22,13 +22,21 @@ amorcé dès la phase 1, adoption) et fait relire chaque livrable par trois agen
 
 ## Installation
 
+Le dépôt est aussi un marketplace Claude Code (`.claude-plugin/marketplace.json`) :
+
+```
+/plugin marketplace add ikoro-labs/ai-delivery-gates
+/plugin install ai-delivery-gates@ikoro-labs
+```
+
+En local, depuis un clone :
+
 ```bash
 claude plugin validate ./ai-delivery-gates     # vérifie manifeste et structure
 claude --plugin-dir ./ai-delivery-gates     # charge le plugin pour la session
 ```
 
-Pour une installation permanente, publier le dossier dans un marketplace (local ou git) selon la documentation
-Claude Code sur les plugins. Prérequis du hook : `uv` dans le PATH (le hook lance `uv run --no-project --quiet python`, ce qui évite l'absence de `python3` sous Windows). Si `uv` est absent, la commande échoue en erreur non bloquante et la garde est inactive : vérifier avec `/hooks` et un essai d'écriture refusé.
+Prérequis du hook : `uv` dans le PATH (le hook lance `uv run --no-project --quiet python`, ce qui évite l'absence de `python3` sous Windows). Si `uv` est absent, la commande échoue en erreur non bloquante et la garde est inactive : vérifier avec `/hooks` et un essai d'écriture refusé.
 
 ## Utilisation
 
