@@ -1,7 +1,7 @@
 {
   "name": "ai-delivery-gates",
   "displayName": "AI Delivery Gates",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Roadmap, livrables et gate de revue pour les phases 0 à 3 d'un projet IA (spike, cadrage, spécifications, system design). Trois agents de revue : Lead Tech, Product Owner, Expert métier.",
   "author": {
     "name": "ikoro-labs",

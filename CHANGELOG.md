@@ -3,6 +3,12 @@
 Format inspiré de Keep a Changelog. Versions selon SemVer ; la version de référence est celle de
 `.claude-plugin/plugin.json`.
 
+## [0.2.3] - 2026-10-23
+
+### Supprimé
+- Adresse e-mail de l'auteur dans le manifeste, et nom de personne dans le fichier de domaine
+  `batiment-controle-technique.md`.
+
 ## [0.2.2] - 2026-10-23
 
 ### Modifié
