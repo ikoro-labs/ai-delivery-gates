@@ -60,6 +60,8 @@ hooks/                          hooks.json et scripts/garde_code.py
 tests/                          tests du hook et du contenu
 README.md                       la page d'accueil : ce que fait le plugin, l'installer, où lire la suite
 docs/contribuer.md              cette page
+docs/architecture.excalidraw    le schéma du README, sa source éditable
+docs/architecture.svg           son export, que le README affiche
 docs/logo.svg                   le logo, sa source
 docs/banniere.svg               la bannière du README et de l'aperçu GitHub, sa source
 CHANGELOG.md                    une entrée par version publiée
@@ -67,7 +69,10 @@ CHANGELOG.md                    une entrée par version publiée
 .github/                        la CI (tests sous Linux et Windows, validation) et le modèle de PR
 ```
 
-## Le logo et la bannière
+## Le schéma, le logo et la bannière
+
+Le schéma du `README.md` a sa source dans `docs/architecture.excalidraw`, à ouvrir dans Excalidraw ;
+`docs/architecture.svg` en est l'export, police comprise, refait à chaque changement de la source.
 
 Le logo a sa source dans `docs/logo.svg`. Son export en PNG de 1024 px, `.claude-plugin/icon.png`,
 est l'icône du plugin, et se refait à chaque changement de la source :
