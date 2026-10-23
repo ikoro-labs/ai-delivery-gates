@@ -1,0 +1,33 @@
+name: tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: tests (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.0
+        with:
+          # La suite ne tourne qu'avec la bibliothèque standard (uv run --no-project) :
+          # le dépôt n'a ni uv.lock ni requirements, et le cache n'aurait rien à garder.
+          enable-cache: false
+      - run: uv run --no-project --quiet python -m unittest discover -s tests -v
+
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: npm install --global @anthropic-ai/claude-code@2.1.304
+      - run: claude plugin validate .
