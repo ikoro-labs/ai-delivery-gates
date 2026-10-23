@@ -10,6 +10,8 @@ Le plugin encode le playbook v2 et ses templates, et ajoute six checkpoints : pa
 alternatives et existant, matrice coût d'erreur et niveau d'autonomie, checkpoint réglementaire,
 jeu d'éval amorcé dès la phase 1, adoption.
 
+![Architecture d'ai-delivery-gates : le projet et la marketplace, les phases, la gate de revue et ses trois agents, le hook garde-code](docs/architecture.svg)
+
 ## Comment ça marche
 
 1. **On démarre le projet.** « Je démarre un projet IA... » ou `/ai-delivery-gates:projet-ia` :
