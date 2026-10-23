@@ -3,7 +3,7 @@
 Format inspiré de Keep a Changelog. Versions selon SemVer ; la version de référence est celle de
 `.claude-plugin/plugin.json`.
 
-## [Non publié]
+## [0.2.1] - 2026-10-23
 
 ### Ajouté
 - Licence MIT (`LICENSE`, champ `license` du manifeste).
