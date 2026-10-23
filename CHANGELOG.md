@@ -7,6 +7,7 @@ Format inspiré de Keep a Changelog. Versions selon SemVer ; la version de réf�
 
 ### Ajouté
 - Licence MIT (`LICENSE`, champ `license` du manifeste).
+- Icône du plugin `.claude-plugin/icon.png` (1024 × 1024).
 - Manifeste de marketplace `.claude-plugin/marketplace.json` : installation par
   `/plugin marketplace add ikoro-labs/ai-delivery-gates` puis `/plugin install ai-delivery-gates@ikoro-labs`.
 
